@@ -1,0 +1,87 @@
+<!DOCTYPE html>	
+<html lang="en">
+
+	<head>
+		<link 
+			rel="stylesheet"
+			type="text/css"
+			href="css/styles.css"
+		/>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Sport Innovations and more" />
+		<meta name="keywords" content="Sport Innovations and more" />
+		<meta name="author" content="Panagiotis" />
+		<title>Sport Innovations and more</title>		
+	</head>
+	
+	<body>
+		<header>
+			<section id="title">
+				<h1>Sport innovations</h1>
+				<img src="./img/Sport-innovator-logo.png" title="logo" alt="logo" id="logo"/>
+			</section>
+			<h2>Sport innovations</h2>
+			
+			<nav role='navigation' id="desktopNav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="product.html">Products</a></li>
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a class="active" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			
+			<nav role="navigation" id="hamNav">
+				<label for="hamburger">&#9776;</label>
+				<input type="checkbox" id="hamburger" name="hamburger"/>
+				
+				<section id="hamItems">
+					<a href="index.html">Home</a>
+					<a href="product.html">Products</a>
+					<a href="pricing.html">Pricing</a>
+					<a class="active" href="contact.html">Contact</a>
+				</section>
+			</nav>
+		</header>
+		
+		<main id="mainContact">
+			<form>
+				<fieldset>
+					<legend>Contact now!</legend>
+					
+					<p>
+						<label for="name">Full name</label>
+						<input type="text" id="name" name="name" placeholder="Name Surname"/>
+					</p>
+					
+					<p>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="email@mail.com"/>
+					</p>
+					
+					<p>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" maxlength="500" placeholder="..."></textarea>
+					</p>
+				</fieldset>
+			</form>
+			
+			<aside id="asideForm">
+				<a href="https://www.inholland.nl/"><img src="./img/nike-zoom-shoe.jpg" title="nike shoe image" alt="image of nike shoe" id="nikeShoe"/></a>
+				<a href="https://www.inholland.nl/"><img src="./img/asics-shoes-2.jpg" title="asics image" alt="image of asics shoe" id="asicsShoe"/></a>
+				<a href="https://www.inholland.nl/"><img src="./img/inov-shoe.jpg" title="inov image" alt="image of a inov shoe" id="inovShoe"/></a>
+			</aside>
+		</main>
+		
+		<footer>
+			<section id="copyright">
+				&copy; 2022 Panagiotis Oikonomopoulos
+			</section>
+			
+			<section id="cookieStatement">
+				<h2>Cookie Statement</h2>
+			</section>
+		</footer>
+	</body>
+</html>
