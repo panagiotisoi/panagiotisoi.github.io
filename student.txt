@@ -1,0 +1,5 @@
+Student name: Panagiotis Oikonomopoulos
+Student number: 691473
+Student class: IT 1D
+URL student GitHub website: https://panagiotisoi.github.io
+URL student GitHub repository: https://github.com/panagiotisoi/panagiotisoi.github.io
